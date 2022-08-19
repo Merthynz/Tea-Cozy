@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Header and Navigation Links Section*/
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header ul li {
+  display: inline;
+  margin-right: 10px;
+  text-decoration: underline;
+
+}
+
+header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  background-color: black;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Mission Section*/
+
+.mission {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+  margin-top: 69px;
+  margin-right: auto;
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.missiontext {
+  background-color: black;
+  text-align: center;
+  margin: 0 auto;
+  width: 1200px;
+  padding: 20px;
+  
+}
+
+figcaption {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.featured {
+width: 100%;
+position: absolute;
+top: 850px;
+}
+
+.featuredtext {
+  text-align: center;
+}
+
+.featuredimages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: auto;
+}
+
+.image {
+  margin: 10px;
+}
+
+.featuredtext {
+  padding-bottom: 20px;
+}
+
+.featuredtext h4 {
+  padding-top: 20px;
+}
+
+/* Locations Section */
+
+.locations {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width: 1200px;
+  height: 600px;
+  top: 1550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.addresses {
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 15px;
+  
+}
+
+.locationtext h2 {
+  margin-bottom: 15px;
+  
+}
+
+.branch {
+  padding-bottom: 30px;
+  
+  margin: 30px 20px;
+  display: inline-block;
+  
+  width: 300px;
+  height:100%;
+  
+  background-color: black;
+  
+}
+
+.branch h3 {
+  margin-top: 30px;
+
+}
+
+.contact {
+  top: 1575px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  top: 1650px;
+  position: relative;
+  padding-bottom: 50px;
+  left: 20px;
+}
